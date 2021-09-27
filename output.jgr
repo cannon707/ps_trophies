@@ -1,0 +1,59 @@
+newgraph
+
+
+xaxis size 5
+  min 0.2 max 155.2 hash 6 mhash 5 shash 0
+  no_auto_hash_labels
+  hash_label at 1 : Nov 8
+  hash_label at 7 : May 9
+  hash_label at 13 : Nov 9
+  hash_label at 19 : May 10
+  hash_label at 25 : Nov 10
+  hash_label at 31 : May 11
+  hash_label at 37 : Nov 11
+  hash_label at 43 : May 12
+  hash_label at 49 : Nov 12
+  hash_label at 55 : May 13
+  hash_label at 61 : Nov 13
+  hash_label at 67 : May 14
+  hash_label at 73 : Nov 14
+  hash_label at 79 : May 15
+  hash_label at 85 : Nov 15
+  hash_label at 91 : May 16
+  hash_label at 97 : Nov 16
+  hash_label at 103 : May 17
+  hash_label at 109 : Nov 17
+  hash_label at 115 : May 18
+  hash_label at 121 : Nov 18
+  hash_label at 127 : May 19
+  hash_label at 133 : Nov 19
+  hash_label at 139 : May 20
+  hash_label at 145 : Nov 20
+  hash_label at 151 : May 21
+  hash_labels fontsize 8 font Times-Italic hjl vjc rotate -60
+  label : Month and Year
+
+
+yaxis min 0 max 160 hash 20 mhash 3 size 1.5
+  label : Trophies Earned
+  grid_lines grid_gray .7
+
+
+newline pts 0.8 0 155.2 0
+
+
+newcurve marktype none linetype solid label : Trophies per month
+   pts 0 16  1 5  
+   pts 2 0  3 0  4 0  5 0  6 5  7 2  8 8  9 8  10 1  11 0  12 0  13 0  
+   pts 14 1  15 1  16 0  17 5  18 0  19 52  20 3  21 0  22 25  23 25  24 44  25 50  
+   pts 26 46  27 16  28 22  29 4  30 2  31 73  32 16  33 28  34 34  35 22  36 37  37 35  
+   pts 38 54  39 12  40 0  41 39  42 65  43 83  44 10  45 33  46 12  47 39  48 21  49 46  
+   pts 50 114  51 47  52 55  53 49  54 115  55 15  56 80  57 117  58 35  59 10  60 84  61 34  
+   pts 62 94  63 76  64 89  65 24  66 19  67 22  68 63  69 77  70 99  71 96  72 45  73 43  
+   pts 74 11  75 112  76 51  77 71  78 36  79 81  80 67  81 49  82 29  83 88  84 70  85 36  
+   pts 86 47  87 63  88 133  89 107  90 75  91 25  92 15  93 43  94 38  95 49  96 48  97 41  
+   pts 98 110  99 23  100 35  101 45  102 73  103 37  104 23  105 36  106 8  107 40  108 19  109 12  
+   pts 110 0  111 45  112 35  113 11  114 0  115 8  116 1  117 47  118 75  119 22  120 55  121 16  
+   pts 122 0  123 2  124 8  125 3  126 0  127 0  128 47  129 55  130 44  131 11  132 57  133 63  
+   pts 134 70  135 122  136 38  137 40  138 83  139 126  140 51  141 29  142 10  143 16  144 117  145 26  
+   pts 146 37  147 151  148 93  149 47  150 18  151 123  152 155  153 60  
