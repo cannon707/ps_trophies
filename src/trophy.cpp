@@ -12,31 +12,23 @@ Trophy::Trophy(string &date, const string &game, const string &title, const int 
 	char junk;
 	int day, month, year, hour, min;
 
+	//convert string of data into struct tm object
 	ss.str(date);
 	ss >> month >> junk >> day >> junk >> year >> hour >> junk >> min;
 
-	//cout << "month: " << month << endl;
-	//cout << "day: " << day << endl;
-	//cout << "year: " << year << endl;
-	//cout << "hour: " << hour << endl;
-	//cout << "min: " << min << endl;
 	this->time_earned.tm_mon = month;
 	this->time_earned.tm_mday = day;	
 	this->time_earned.tm_year = year - 1900;
 	this->time_earned.tm_hour = hour;
 	this->time_earned.tm_min = min;
 
-	
+	//store title of game, trophy, and grade of trophy
 	this->game = game;
 	this->title = title;
 	this->grade = grade;
 }
 
-Trophy::~Trophy()
-{
-	//destructor for trophy data
-}
-
+/* used in testing prints out info on trophy */
 void Trophy::Print()
 {
 	printf("Trophy Title: %s\nGame Title: %s\n", this->title.c_str(), this->game.c_str());
