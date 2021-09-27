@@ -23,6 +23,11 @@ I have removed the titles of the columns in the csv file and the entire column o
 ./bin/graph_trophies [input.csv] [output.jgr] [graph choice]
 ```
 
+### example usage
+```
+./bin/graph_trophy 9_25_21_list.csv bar_months.jgr bar_graph_months
+```
+
 ### graph_choice arguments
 * `bar_graph_months`
 * `line_graph_months`
