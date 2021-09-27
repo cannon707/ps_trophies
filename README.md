@@ -19,14 +19,14 @@ I have removed the titles of the columns in the csv file and the entire column o
 
 ## Usage
 
-'''
+```
 ./bin/graph_trophies [input.csv] [output.jgr] [graph choice]
-...
+```
 
 ### graph_choice arguments
-* 'bar_graph_months'
-* 'line_graph_months'
-* 'bar_graph_time'
+* `bar_graph_months`
+* `line_graph_months`
+* `bar_graph_time`
 
 ### Example
 bar_graph_months
@@ -34,8 +34,8 @@ bar_graph_months
 
 ## Output
 The program will run the command
-'''
+```
 ./jgraph/jgraph -P [output.jgr] | ps2pdf - | convert -density 300 - -quality 100 [output.jpg]
-'''
+```
 Once it is finished the directory will have both a [output.jgr] file and a [output.jpg]. 
 The [output.jpg] file will be the image of the graph. 
